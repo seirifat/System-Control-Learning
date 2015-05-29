@@ -1,0 +1,127 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    tools:context=".MainActivity" >
+
+    <!-- ============================================================================= -->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- ============================================================================= -->
+    <!-- <TextView -->
+    <!-- android:id="@+id/textView1" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:layout_marginBottom="25dp" -->
+    <!-- android:layout_marginTop="5dp" -->
+    <!-- android:gravity="center" -->
+    <!-- android:textSize="9pt" -->
+    <!-- android:text="Tutorial Pembelajaran Sistem Kontrol"/> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:baselineAligned="false" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:orientation="horizontal"> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.8" -->
+    <!-- android:paddingRight="5dp" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button1" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="Pendahuluan" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button2" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="Pemodelan" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button3" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="=========" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button4" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="Materi Kontrol" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/button5" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="=========" /> -->
+    <!-- <Button -->
+    <!-- android:id="@+id/button6" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="15dp" -->
+    <!-- android:text="Demo Transmisi" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_weight="0.2" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <include -->
+    <!-- android:id="@+id/mainInclude" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- layout="@layout/activity_pendahuluan" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- </LinearLayout> -->
+    <!-- ============================================================================= -->
+
+    
+
+</TabHost>

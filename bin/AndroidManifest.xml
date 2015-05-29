@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rifatkun.systemcontrollearning"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.PID"
+            android:label="@string/title_activity_pid" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.Pendahuluan"
+            android:label="@string/title_activity_pendahuluan" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.SimulasiPID"
+            android:label="@string/title_activity_simulasi_pid" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.Fuzzy"
+            android:label="@string/title_activity_fuzzy" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.SimulasiFuzzy"
+            android:label="@string/title_activity_simulasi_fuzzy" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.SimulasiTab"
+            android:label="@string/title_activity_simulasi_tab" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.PemodelanActivity"
+            android:label="@string/title_activity_pemodelan" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.MateriTab"
+            android:label="@string/title_activity_materi_tab" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.KebutuhanDisainActivity"
+            android:label="@string/title_activity_kebutuhan_disain" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.UjiMateriActvity"
+            android:label="@string/title_activity_uji_materi_actvity" >
+        </activity>
+        <activity
+            android:name="com.rifatkun.systemcontrollearning.TampilNilaiActivity"
+            android:label="@string/title_activity_tampil_nilai" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">System Control Learning</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">System Control Learning</string>
+
+    <color name="Black">#000000</color>
+    <color name="ActTabBTN">#D6D6D6</color>
+	<color name="bgTab">#FEFFFE</color>
+    
+    <string name="title_activity_pid">PID</string>
+
+    <!-- PID Content -->
+    <string name="PIDcon_P1">PID (dari singkatan Proportional-Integral-Derivative) merupakan kontroler untuk menentukan presisi suatu sistem dengan karakteristik adanya umpan balik pada sistem tersebut. Komponen kontrol PID ini terdiri dari tiga jenis kontroler yaitu Proportional, Integratif dan Derivatif. 
+        Ketiganya dapat dipakai bersamaan maupun sendiri-sendiri tergantung dari respon (Transien dan steady state) yang kita inginkan terhadap suatu plant. 
+        Berikut ini diagram blok dari kontrol PID.</string>
+    <string name="PIDcon_P2">Dengan persamaan kontrol PID sebagai berikut :\n</string>
+    <string name="PIDcon_P3">Keterangan:\n
+mv(t)= keluaran dari pengontrol PID (manipulated variabel).\n
+Kp= konstanta Proporsional.\n
+Ti= konstanta Integral.\n
+Td=konstanta Derivatif.\n
+e(t)= error (selisih antara nilai reference dengan nilai aktual)\n\n
+
+Persamaan kontrol PID diatas juga dapat dituliskan sebagai berikut:\n                                                                <!-- mv(t)=K_p e(t)+K_i ∫_0^t▒〖e(t)dt+K_d  (de(t))/dt〗\n\n -->
+
+
+        <!-- Dengan:\n -->
+        <!-- K_i=K_i  1/T_i   dan K_d=K_p.T_d\n\n -->
+        <!-- Berikut ini penjelasan dari kontrol Proporsional, Integratif dan Derivatif.\n -->
+    </string>
+
+    <!-- PENDAHULUAN -->
+    <string name="PemodelanP01">Berikut ini adalah spesifikasi Linear aktuator yang digunakan.</string>
+    <!-- ====================== -->
+    <string name="title_activity_pendahuluan">Pendahuluan</string>
+    <string name="title_activity_simulasi_pid">Simulasi PID</string>
+    <string name="title_activity_fuzzy">Fuzzy</string>
+    <string name="title_activity_simulasi_fuzzy">Simulasi Fuzzy</string>
+    <string name="title_activity_simulasi_tab">Simulasi</string>
+    <string name="title_activity_pemodelan">Pemodelan</string>
+    <string name="title_activity_materi_tab">Materi</string>
+    <string name="title_activity_kebutuhan_disain">Kebutuhan Disain Activity</string>
+    <string name="title_activity_uji_materi_actvity">Uji Materi Actvity</string>
+    <string name="title_activity_tampil_nilai">Tampil Nilai Activity</string>
+
+</resources>
